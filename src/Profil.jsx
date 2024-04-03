@@ -1,7 +1,7 @@
 const Profil = (props) => {
 
     return (
-      <section>
+      <section className="App-profil">
         <p>nom: {props.user.lastName}</p>
         <p>prénom: {props.user.firstName}</p>
         <p>job: {props.user.job}</p>

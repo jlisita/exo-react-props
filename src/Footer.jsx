@@ -1,7 +1,7 @@
 const Footer = ({date}) => {
 
     return (
-      <footer>
+      <footer className="App-footer">
         <p>Copyright © Julien Lisita</p>
         <p>{date}</p>
       </footer>
